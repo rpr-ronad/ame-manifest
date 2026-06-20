@@ -2,7 +2,7 @@
 <manifest>
 
   <default revision="main" sync-j="4"/>
-  <remote name="mcde3000a"   fetch="git@github.com:MotecGmbH/mcde3000akas.git"/>
+  <remote name="mcde3000akas"   fetch="git@github.com:MotecGmbH/mcde3000akas.git"/>
   <remote name="amr-src"       fetch="git@github.com:rpr-ronad/amr-src.git"/>
   
   <project name="mcde3000akas" path="sources/mcde3000akas" revision="ffde9a87692362f738532a87756dbf530dfa1409" upstream="main"/>
