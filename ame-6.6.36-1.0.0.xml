@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <default revision="main" remote="github" sync-j="4"/>
+  <default revision="main" remote="github"/>
 
-  <remote name="github" fetch="git@github.com:"/>
+  <remote name="github" fetch="https://github.com/"/>
 
   <project name="rpr-ronad/amr-src"
            path="sources/amr-src"
