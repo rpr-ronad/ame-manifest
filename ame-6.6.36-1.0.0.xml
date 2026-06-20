@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <default revision="scarthgap" sync-j="4"/>
+  <default revision="main" sync-j="4"/>
   <remote name="mcde3000a"   fetch="git@github.com:MotecGmbH/mcde3000akas.git"/>
-  <remote name="s-bsp"   fetch="git@github.com:MotecGmbH/meta-mcde3000a-smart-bsp.git"/>
+  <remote name="s-bsp"       fetch="git@github.com:rpr-ronad/amr-src.git"/>
   
-  <project name="mcd-set-up" remote="mcde3000a" path="sources/mcde3000akas" revision="ffde9a87692362f738532a87756dbf530dfa1409" upstream="main"/>
-  <project name="smart-bsp"  remote="s-bsp" path="sources/meta-mcde3000a-smart-bsp" revision="9be7133444ceaedd7db770f23c27b9ee09fbd36e" upstream="main"/>
+  <project name="mcd-set-up" remote="mcde3000a" path="mcde3000akas" revision="ffde9a87692362f738532a87756dbf530dfa1409" upstream="main"/>
+  <project name="smart-bsp"  remote="s-bsp" path="sources/amr-src" revision="7711697c3a0d392374d528d7c9dee86f5b6d0d30" upstream="main"/>
   
 </manifest>
