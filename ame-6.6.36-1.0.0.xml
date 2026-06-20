@@ -1,9 +1,14 @@
+
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <default revision="main" sync-j="4"/>
-  <remote name="amr-src"       fetch="git@github.com:rpr-ronad/amr-src.git"/>
-  
-  <project name="amr-src" path="sources/amr-src" revision="7711697c3a0d392374d528d7c9dee86f5b6d0d30" upstream="main"/> 
-  
+  <default revision="main" remote="github" sync-j="4"/>
+
+  <remote name="github" fetch="git@github.com:"/>
+
+  <project name="rpr-ronad/amr-src"
+           path="sources/amr-src"
+           revision="7711697c3a0d392374d528d7c9dee86f5b6d0d30"
+           upstream="main"/>
+
 </manifest>
