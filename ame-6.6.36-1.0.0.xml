@@ -5,7 +5,7 @@
   <remote name="mcde3000a"   fetch="git@github.com:MotecGmbH/mcde3000akas.git"/>
   <remote name="s-bsp"   fetch="git@github.com:MotecGmbH/meta-mcde3000a-smart-bsp.git"/>
   
-  <project name="mcd-set-up" remote="yp" path="sources/mcde3000akas" revision="ffde9a87692362f738532a87756dbf530dfa1409" upstream="main"/>
-  <project name="smart-bsp"  remote="mcde3000a" path="sources/meta-mcde3000a-smart-bsp" revision="9be7133444ceaedd7db770f23c27b9ee09fbd36e" upstream="main"/>
+  <project name="mcd-set-up" remote="mcde3000a" path="sources/mcde3000akas" revision="ffde9a87692362f738532a87756dbf530dfa1409" upstream="main"/>
+  <project name="smart-bsp"  remote="s-bsp" path="sources/meta-mcde3000a-smart-bsp" revision="9be7133444ceaedd7db770f23c27b9ee09fbd36e" upstream="main"/>
   
 </manifest>
